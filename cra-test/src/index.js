@@ -82,8 +82,8 @@ class App extends React.Component {
   //   };      
   // }
 
-  state = {                      //class field syntax, isto kao gore samo se ovde koristi pod Babelom
-    profiles: [],
+  state = {                      // class field syntax, isto kao gore samo se ovde koristi pod Babelom kada
+    profiles: [],                // krene da compileuje
   };
 
   addNewProfile = (profileData) =>{
